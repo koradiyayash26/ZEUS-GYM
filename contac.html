@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <style>
+    .back-second {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(/img/about_cont_bg.jpg);
+      background-size: 100%;
+      height: 410px;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      filter: brightness(60%);
+    }
+    .back-img {
+      background-image: url(/img/contact_social_bg.jpg);
+      background-size: 100%;
+      height: 410px;
+      width: 70%;
+      background-repeat: no-repeat;
+    }
+  </style>
+  <body>
+    <!-- top navv start -->
+    <div class="flex justify-between w-[100%] h-[55px] items-center bg-black">
+      <div class="flex ml-3">
+        <img class="w-[45px]" src="/img/icon.png" alt="" />
+      </div>
+      <div class="flex mr-3">
+        <a
+          class="p-[7px] mx-[1px] hover:bg-[crimson] rounded-[3px] text-white"
+          href="index.html"
+          >Home</a
+        >
+        <a
+          class="p-[7px] mx-[1px] hover:bg-[crimson] rounded-[3px] text-white text-white"
+          href="servies.html"
+          >Services</a
+        >
+        <a
+          class="p-[7px] mx-[1px] hover:bg-[crimson] rounded-[3px] text-white"
+          href="about.html"
+          >About</a
+        >
+        <a
+          class="p-[7px] mx-[1px] hover:bg-[crimson] bg-[crimson] rounded-[3px] text-white"
+          href="contac.html"
+          >Contact</a
+        >
+      </div>
+    </div>
+    <!-- top navv endd -->
+    <div class="flex justify-center mt-2">
+      <div class="flex">
+        <h2 class="text-[45px] text-[#262424] font-[900] font-serif">
+          Testimonials
+        </h2>
+      </div>
+    </div>
+    <div class="flex justify-center mt-2">
+      <div class="flex">
+        <img
+          class="w-[100px] rounded-full"
+          src="/img/testimonial_1.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="flex justify-center mt-2">
+      <div class="flex">
+        <h1 class="text-[20px] font-[500]">John Doe</h1>
+      </div>
+    </div>
+    <div class="flex justify-center mt-2">
+      <div class="flex">
+        <hr class="border-b-[black] w-[900px]" />
+      </div>
+    </div>
+    <div class="flex justify-center mt-2">
+      <div class="flex text-center">
+        <i class="fa fa-quote-left mr-5" aria-hidden="true"></i>
+        <p>
+          Neque Cupiditate assumenda in maiores repudiandae mollitia architeco
+        </p>
+      </div>
+    </div>
+    <!-- form starttttttt -->
+    <div class="w-[100%] h-[540px] bg-[red]">
+      <div class="flex justify-center mt-20">
+        <div class="flex text-center">
+          <h2 class="text-[50px] font-[600]">Connect With us</h2>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <div class="back-img flex">
+          <div class="w-[50%] h-[410px] flex">yah</div>
+          <div class="w-[50%] h-[410px] flex bg-black">
+            <form action="" class="ml-3">
+              <div class="mt-3">
+                <label class="text-white" for="text">Subject*</label>
+              </div>
+              <div>
+                <input
+                  class="w-[450px] h-[30px] rounded-[5px]"
+                  type="text"
+                  placeholder="General inquiry"
+                />
+              </div>
+              <div class="mt-3">
+                <label class="text-white" for="text">Name*</label>
+              </div>
+              <div>
+                <input class="w-[450px] h-[30px] rounded-[5px]" type="text" />
+              </div>
+              <div class="mt-3">
+                <label class="text-white" type="email" for="Email"
+                  >Email*</label
+                >
+              </div>
+              <div>
+                <input class="w-[450px] h-[30px] rounded-[5px]" type="email" />
+              </div>
+              <div class="mt-3">
+                <label class="text-white" for="Massage">Massage*</label>
+              </div>
+              <div class="mt-3">
+                <textarea
+                  class="w-[450px] rounded-[5px]"
+                  rows="4"
+                  cols="50"
+                  name="comment"
+                  form="usrform"
+                ></textarea>
+              </div>
+              <div class="mt-3">
+                <button class="w-[450px] bg-[red] h-[30px] rounded-[5px]">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- form enddddddddddddddddddddddddddd -->
+    <div class="flex w-[100%] h-[200px] bg-black justify-center">
+      <div class="w-[50%] flex justify-center">
+        <div class="flex text-white"><h2>Consider</h2>
+        </div>
+        <div class="text-white"><h2>Sbscribing?</h2>
+        </div>
+      </div>
+      <div class="w-[50%] text-white">
+        <div class="mt-3">
+          <label class="text-white" type="email" for="Email">Email*</label>
+        </div>
+        <div>
+          <input class="w-[450px] h-[30px] rounded-[5px]" type="email" />
+        </div>
+        <div class="mt-3">
+          <button class="w-[450px] bg-[red] h-[30px] rounded-[5px]">
+            Subscribe!
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
